@@ -24,7 +24,7 @@ var articles = {
                 <p>
                     hello my name is suchith.
                 </p>`},
-    'artilce-three' : {title:'Article-three | suchith prabhu',
+    'article-three' : {title:'Article-three | suchith prabhu',
     date:'sept 15 2016',
     content:`<p>
                     This is the content of the article.
