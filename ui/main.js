@@ -6,5 +6,5 @@ element.innerHTML='SUCHITH PRABHU';
 //move image
 var img=document.getElementById('dino');
 img.onclick = function (){
-    img.style.marginleft ='100px';
+    img.style.marginLeft ='100px';
 };
