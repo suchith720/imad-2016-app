@@ -15,6 +15,7 @@ img.onclick = function (){
     var interval= setInterval(moveRight,50);
 };
 
+//XMLHttprequest part - API 
 
 var button = document.getElementById('counter');
 
@@ -24,7 +25,7 @@ button.onclick = function(){
   
   
   // Capture the response and store it in variable
-  request.onreadystatechange= function()
+  request.onreadystatechange = function()
   {
       if(request.readyState === XMLHttpRequest.DONE)
       {
