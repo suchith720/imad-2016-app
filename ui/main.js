@@ -2,7 +2,7 @@
 
 //XMLHttprequest part - API 
 
-/*var button = document.getElementById('counter');
+var button = document.getElementById('counter');
 
 button.onclick = function(){
   //Create a  request Object
@@ -30,11 +30,27 @@ button.onclick = function(){
   // Make request
   request.open('GET','http://suchith720.imad.hasura-app.io/counter',true);
   request.send(null);
-};*/
-var button=document.getElementById('counter');
-var counter = 0;
-button.onclick= function() {
-    counter=counter+1;
-    var span = document.getElementById('count');
-    span.innerHTML='hello';
 };
+
+
+
+
+
+/* p5 practical
+console.log('Loaded!');
+//CHANGE THE TEXT OF MAIN-TEXT DIV
+var element=document.getElementById('main-text');
+element.innerHTML='SUCHITH PRABHU';
+
+//move image
+var img=document.getElementById('dino');
+var marginLeft =0;
+function moveRight()
+{
+    marginLeft=marginLeft+1;
+    img.style.marginLeft=marginLeft+'px';
+}
+img.onclick = function (){
+    var interval= setInterval(moveRight,50);
+};
+*/
