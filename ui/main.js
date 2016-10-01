@@ -43,6 +43,6 @@ button.onclick = function(){
   };
   
   // Make request
-  request.open('GET',"http://suchith720.imad.hasura-app.io/counter",true);
+  request.open('GET','http://suchith720.imad.hasura-app.io/counter',true);
   request.send(null);
 };
