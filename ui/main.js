@@ -17,7 +17,7 @@ img.onclick = function (){
 
 //XMLHttprequest part - API 
 
-var button = document.getElementById('counter');
+/*var button = document.getElementById('counter');
 
 button.onclick = function(){
   //Create a  request Object
@@ -45,4 +45,10 @@ button.onclick = function(){
   // Make request
   request.open('GET','http://suchith720.imad.hasura-app.io/counter',true);
   request.send(null);
+};*/
+var button=document.getElementById('counter');
+button.onclick= function() {
+    counter=counter+1;
+    var span = document.getElementById('count');
+    span.innerHTML=counter.toString();
 };
