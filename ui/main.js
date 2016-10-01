@@ -46,7 +46,7 @@ button.onclick = function(){
   request.open('GET','http://suchith720.imad.hasura-app.io/counter',true);
   request.send(null);
 };*/
-var button=document.getElementById('counter');
+var button=document.getElementById('co');
 var counter = 0;
 button.onclick= function() {
     counter=counter+1;
