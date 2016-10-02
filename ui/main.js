@@ -54,7 +54,7 @@ submit.onclick = function(){
           {
             //caputre name and render it as a list
     	    var names = request.responseText;
-	    names = JSON.parse(names);
+	        names = JSON.parse(names);
             list = '';
             for(var i=0;i<name.length;i++)
     	    {
